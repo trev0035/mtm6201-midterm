@@ -9,76 +9,87 @@
 </head>
 
 <body>
-<!-- HEADER SECTION -->
-<header>
+     <!-- SKIP LINKS -->
+  <div class="container" id="Top">
+    <ul class="skip-links">
+    <li role="listitem"><a href="#main-nav" class="skip-link">Skip to navigation</a></li>
+    <li role="listitem"><a href="#main" class="skip-link">Skip to content</a></li>
+  </ul>
+  
+  <!-- HEADER SECTION -->
+  <header class="site-header" role="banner">
     <!-- NAV SECTION -->
-    <nav>
+    <nav class="main-nav" id="main-nav" role="navigation">
         <a href="index.html"><img src="images/bo_logo.png" alt="Bella Onoje Logo"></a>
         <!-- nav links -->
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="faq.html">Faq</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li role="listitem"><a href="index.html">Home</a></li>
+            <li role="listitem"><a href="products.html">Products</a></li>
+            <li role="listitem"><a href="faq.html">Faq</a></li>
+            <li role="listitem"><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 </header>
 
-<!-- HERO SECTION -->
+<main role="main" id="maincontent">
+    <!-- HERO SECTION -->
 <section class="hero">
-    <h4>Food app</h4>  <!-- this should go bold -->
-    <h1>Why stay hungry when you can order from Bella Olonje</h1>
-    <h4>Download the bella olonje's food app now on</h4>
+    <strong>Food app</strong>
+    <h1 role="heading">Why stay hungry when you can order from Bella Olonje</h1>
+    <p>Download the bella olonje's food app now on</p>
     <!-- APP STORE BUTTONS -->
     <div class="app-links">
-        <a href="#" class="playstore">Playstore</a>
-        <a href="#" class="appstore">App store</a>
+        <a href="#" aria-label="Playstore app link" class="playstore">Playstore</a>
+        <a href="#" aria-label="Playstore app link" class="appstore">App store</a>
     </div>
+    <!-- screens mockup img -->
+    <img src="images/phones_app_mockup.png" alt="Two phones with screen showing the app ">
 </section>
-<!-- missing phone pic -->
+
     
 <!-- HOW THE APP WORKS SECTION -->
 <section class="how-app-works">
-    <h2>How the app works</h2>
+    <h2 role="heading">How the app works</h2>
     
     <!-- step one -->
     <div class="steps">
-        <h3>Create an account</h3>
-        <h2>Create/login to an existing account to get started.</h2>
-        <h4>An account is created with your email and a desired password.</h4>
+        <h3 role="heading">Create an account</h3>
+        <h2 role="heading">Create/login to an existing account to get started.</h2>
+        <h4 role="heading">An account is created with your email and a desired password.</h4>
         <!-- phone demo 1 img -->
-        <img src="images/step_one.png" alt="Create account step">
+        <img src="images/step_one.png" alt="Screen showing account creation step">
     </div>
     <!-- step two -->
     <div class="steps">
-        <h3>Explore varieties</h3>
-        <h2>Shop for your favorite meal as e dey hot.</h2>
-        <h4>Shop for your favorite meals or drinks and enjoy while doing it.</h4>
+        <h3 role="heading">Explore varieties</h3>
+        <h2 role="heading">Shop for your favorite meal as e dey hot.</h2>
+        <h4 role="heading">Shop for your favorite meals or drinks and enjoy while doing it.</h4>
         <!-- phone demo 2 img -->
-        <img src="images/step_two.png" alt="Shop for food step">
+        <img src="images/step_two.png" alt="Screen showing shop for food step">
     </div>
     <!-- step three -->
     <div class="steps">
-        <h3>Checkout</h3>
-        <h2>When you done check out and get it delivered.</h2>
-        <h4>When you done check out and get it delivered with ease.</h4>
+        <h3 role="heading">Checkout</h3>
+        <h2 role="heading">When you done check out and get it delivered.</h2>
+        <h4 role="heading">When you done check out and get it delivered with ease.</h4>
         <!-- phone demo 3 img -->
-        <img src="images/step_three.png" alt="Checkout step">
+        <img src="images/step_three.png" alt="Screen showing checkout step">
     </div>
 </section>
 
     <!-- DOWNLOAD THE APP SECTION -->
     <section class="download-app">
-        <h2>Download the app now.</h2>
-        <h4>Available on your favorite store. Start your premium experience now</h4>
-        <a href="#" class="playstore-link">Playstore</a>
-        <a href="#" class="appstore-link">App store</a>
+        <h2 role="heading">Download the app now.</h2>
+        <h4 role="heading">Most calendars are designed for teams.</h4>
+        <a href="#" aria-label="Buy the app now" class="buy-now">Buy Now</a>
+        <a href="#" aria-label="Try the app for free" class="try-for-free">Try for free</a>
     </section>
+</main>
+</div>
 
     <!-- FOOTER SECTION -->
-    <footer>
+    <footer role="contentinfo">
         <div class="container">
-
             <!-- Logo  -->
             <div class="footer-logo">
                 <a href="index.html">
@@ -104,7 +115,5 @@
             </div>
         </div>
     </footer>
-
-
 </body>
 </html>
