@@ -457,7 +457,7 @@ footer {
 
   /* HERO SECTION STYLES */
   .hero {
-    background-image: url("/images/background_food_image.png");
+    background-image: url("../images/background_food_image.png");
     background-size: cover;
     display: flex;
     flex-direction: column;
