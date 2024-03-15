@@ -625,7 +625,7 @@ padding: 0;
 
 /* DOWNLOAD THE APP STYLES */
 .download-app {
-  background-image: url('/images/download_image.png');
+  background-image: url('../images/download_image.png');
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
