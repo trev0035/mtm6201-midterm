@@ -4,19 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ - Bella Olonje</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <!-- FONT & ICONS -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;1,700&display=swap" rel="stylesheet">
 
-    <!-- HEADER SECTION -->
+    <!-- RESET CSS -->
+     <link rel="stylesheet" href="css/reset.css">
+     <!-- CSS  -->
+     <link rel="stylesheet" href="css/main.css">
+</head>
+
+        <!-- SKIP LINKS -->
+        <div class="container">
+            <ul class="skip-links">
+              <li><a href="#nav">Skip to main nav</a></li>
+              <li><a href="#main">Skip to main content</a></li>
+            </ul>
+    
+      <!-- HEADER SECTION -->
+      <header>
+        <!-- logo -->
+        <a href="index.html"><img src="images/bo_logo.png" alt="Bella Onoje Logo"></a>
+        <!-- NAV SECTION -->
+        <nav id="main-nav">
+            <!-- nav items -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="faq.html">Faq</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+         </nav>
+        </header>
 
     <main>
         <!-- FAQ SECTION -->
         <section class="faq">
             <h1>Frequently Asked Questions</h1>
+            <br>
             <p>Let's find quick answers to common questions.</p>
-
+            <br>
             <!-- using acordion to drop down question-answer -->
             <!-- question 1 -->
             <details>
@@ -46,5 +72,31 @@
     </main>
     
     <!-- FOOTER SECTION -->
+    <footer>
+        <div class="footer-content">
+            <!-- Logo  -->
+            <div class="footer-logo">
+                <a href="index.html"><img src="images/bo_logo.png" alt="Bella Olonje Logo"></a>
+            </div>
+
+            <!-- social media icons -->
+            <div class="footer-socialmedia">
+                <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                    <img src="images/twitter_icon.svg" alt="Twitter icon">
+                </a>
+                <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                    <img src="images/facebook_icon.svg" alt="Facebook icon">
+                </a>
+                <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                    <img src="images/instagram_icon.svg" alt="Instagram icon">
+                </a>
+            </div>
+
+            <!-- copyright text -->
+            <div class="footer-copyright">
+                <p>&copy; 2024 <a href="https://www.figma.com/community/file/893381127703378146" target="_blank">Bellaolonje.com</a> Developed by <a href="https://github.com/trev0035" target="_blank">Regina Trevs</a></p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

@@ -4,83 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Delivery Bella Olonje</title>
+    <!-- FONT & ICONS -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;1,700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <!-- RESET CSS -->
+    <link rel="stylesheet" href="css/reset.css">
     <!-- CSS  -->
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-     <!-- SKIP LINKS -->
-  <div class="container" id="Top">
-    <ul class="skip-links">
-    <li role="listitem"><a href="#main-nav" class="skip-link">Skip to navigation</a></li>
-    <li role="listitem"><a href="#main" class="skip-link">Skip to content</a></li>
-  </ul>
-  
-  <!-- HEADER SECTION -->
-  <header class="site-header" role="banner">
-    <!-- NAV SECTION -->
-    <nav class="main-nav" id="main-nav" role="navigation">
-        <a href="index.html"><img src="images/bo_logo.png" alt="Bella Onoje Logo"></a>
-        <!-- nav links -->
-        <ul>
-            <li role="listitem"><a href="index.html">Home</a></li>
-            <li role="listitem"><a href="products.html">Products</a></li>
-            <li role="listitem"><a href="faq.html">Faq</a></li>
-            <li role="listitem"><a href="contact.html">Contact</a></li>
+    <!-- SKIP LINKS -->
+    <div class="container">
+        <ul class="skip-links">
+          <li><a href="#nav">Skip to main nav</a></li>
+          <li><a href="#main">Skip to main content</a></li>
         </ul>
-    </nav>
-</header>
 
-<main role="main" id="maincontent">
+  <!-- HEADER SECTION -->
+  <header>
+    <!-- logo -->
+    <a href="index.html"><img src="images/bo_logo.png" alt="Bella Onoje Logo"></a>
+    <!-- NAV SECTION -->
+    <nav id="main-nav">
+        <!-- nav items -->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="faq.html">Faq</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+     </nav>
+    </header>
+
+<!-- Main Content -->
+<main id="main">
+
     <!-- HERO SECTION -->
-<section class="hero">
-    <strong>Food app</strong>
-    <h1 role="heading">Why stay hungry when you can order from Bella Olonje</h1>
-    <p>Download the bella olonje's food app now on</p>
-    <!-- APP STORE BUTTONS -->
-    <div class="app-links">
-        <a href="#" aria-label="Playstore app link" class="playstore">Playstore</a>
-        <a href="#" aria-label="Playstore app link" class="appstore">App store</a>
-    </div>
+    <section class="hero">
+        <strong>Food app</strong>
+        <h1>Why stay hungry when you can order from Bella Olonje</h1>
+        <p>Download the bella olonje's food app now on</p>
+        <!-- APP STORE BUTTONS -->
+        <div class="app-links">
+            <a href="#" aria-label="Playstore app link" class="playstore">Playstore</a>
+            <a href="#" aria-label="Playstore app link" class="appstore">App store</a>
+        </div>
+    </section>
     <!-- screens mockup img -->
-    <img src="images/phones_app_mockup.png" alt="Two phones with screen showing the app ">
-</section>
-
+    <section class="mockup">
+        <img src="images/phones_mockup.png" 
+     alt="Two phones with screen showing the app">
+    </section>
     
-<!-- HOW THE APP WORKS SECTION -->
-<section class="how-app-works">
-    <h2 role="heading">How the app works</h2>
-    
-    <!-- step one -->
-    <div class="steps">
-        <h3 role="heading">Create an account</h3>
-        <h2 role="heading">Create/login to an existing account to get started.</h2>
-        <h4 role="heading">An account is created with your email and a desired password.</h4>
-        <!-- phone demo 1 img -->
-        <img src="images/step_one.png" alt="Screen showing account creation step">
-    </div>
-    <!-- step two -->
-    <div class="steps">
-        <h3 role="heading">Explore varieties</h3>
-        <h2 role="heading">Shop for your favorite meal as e dey hot.</h2>
-        <h4 role="heading">Shop for your favorite meals or drinks and enjoy while doing it.</h4>
-        <!-- phone demo 2 img -->
-        <img src="images/step_two.png" alt="Screen showing shop for food step">
-    </div>
-    <!-- step three -->
-    <div class="steps">
-        <h3 role="heading">Checkout</h3>
-        <h2 role="heading">When you done check out and get it delivered.</h2>
-        <h4 role="heading">When you done check out and get it delivered with ease.</h4>
-        <!-- phone demo 3 img -->
-        <img src="images/step_three.png" alt="Screen showing checkout step">
-    </div>
-</section>
+    <hr class="line-above" />
+    <!-- HOW THE APP WORKS SECTION -->
+    <section class="how-app-works">
+        <h2>How the app works</h2>
+        <hr class="line-below" />
 
+        
+        <!-- step one -->
+        <div class="steps">
+            <div class="text-step">
+            <h3>Create an account</h3>
+            <h2>Create/login to an existing account to get started.</h2>
+            <p>An account is created with your email and a desired password.</p></div>
+            <!-- phone demo 1 img -->
+            <img src="images/account_step.png" alt="Screen showing account creation step">
+        </div>
+        <!-- step two -->
+        <div class="steps">
+            <div class="text-step">
+            <h3>Explore varieties</h3>
+            <h2>Shop for your favorite meal as e dey hot.</h2>
+            <p>Shop for your favorite meals or drinks and enjoy while doing it.</p></div>
+            <!-- phone demo 2 img -->
+            <img src="images/step_two.png" alt="Screen showing shop for food step">
+        </div>
+        <!-- step three -->
+        <div class="steps">
+            <div class="text-step">
+            <h3>Checkout</h3>
+            <h2>When you done check out and get it delivered.</h2>
+            <p>When you done check out and get it delivered with ease.</p></div>
+            <!-- phone demo 3 img -->
+            <img src="images/step_three.png" alt="Screen showing checkout step">
+        </div>
+    </section>
+    
     <!-- DOWNLOAD THE APP SECTION -->
     <section class="download-app">
-        <h2 role="heading">Download the app now.</h2>
-        <h4 role="heading">Most calendars are designed for teams.</h4>
+        <h2>Download the app now.</h2>
+        <p>Most calendars are designed for teams.</p>
         <a href="#" aria-label="Buy the app now" class="buy-now">Buy Now</a>
         <a href="#" aria-label="Try the app for free" class="try-for-free">Try for free</a>
     </section>
@@ -88,12 +103,11 @@
 </div>
 
     <!-- FOOTER SECTION -->
-    <footer role="contentinfo">
-        <div class="container">
+    <footer>
+        <div class="footer-content">
             <!-- Logo  -->
             <div class="footer-logo">
-                <a href="index.html">
-                    <img src="images/bo_logo.png" alt="Bella Olonje Logo"></a>
+                <a href="index.html"><img src="images/bo_logo.png" alt="Bella Olonje Logo"></a>
             </div>
 
             <!-- social media icons -->
@@ -115,5 +129,6 @@
             </div>
         </div>
     </footer>
+
 </body>
 </html>
