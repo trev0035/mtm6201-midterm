@@ -90,6 +90,7 @@ header a img {
 }
 
 /* HERO STYLES */
+
 .hero {
     text-align: center;
     padding: 10px;
@@ -112,6 +113,16 @@ header a img {
     margin-bottom: 2rem;
     margin: 20px 0;
     color: #737373;
+}
+
+/* ANIMATION 1 */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.hero {
+  animation: fadeIn 1s ease-out;
 }
 
 /* APP STORE BUTTONS STYLES */
@@ -224,6 +235,22 @@ header a img {
 .steps img {
   width: 100%; 
 }
+
+/* ANIMATION 2 */
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.steps {
+  animation: slideUp 0.5s ease-out forwards;
+  opacity: 0; 
+}
+
+.steps:nth-child(1) { animation-delay: 0.3s; }
+.steps:nth-child(2) { animation-delay: 0.6s; }
+.steps:nth-child(3) { animation-delay: 0.9s; }
+
 
 /* DOWLOAD THE APP STYLES */
 /* mobile section with color*/
